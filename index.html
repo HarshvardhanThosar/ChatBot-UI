@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot UI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/main.css">
+    <link rel="stylesheet" href="./Css/chatBot.css">
+    <link rel="shortcut icon" href="gfx/logo.png" type="image/x-icon">
+    <style></style>
+</head>
+<body>
+    <section class="heroContainer">
+        <div class="hero">
+            <img src="./Gfx/logoFullSite.png" class="logo" alt="ChatBot UI Logo">
+            <hr>
+            <h4>Download the original project.</h4>
+            <div class="linkContainer">
+                <a class="github-button" href="https://github.com/HarshvardhanThosar/ChatBot-UI/archive/master.zip" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Download HarshvardhanThosar/ChatBot-UI on GitHub"> &nbsp; Download</a>
+                <a href="https://github.com/HarshvardhanThosar/ChatBot-UI" target="_blank"><p>View original repository for more instructions.</p></a>
+            </div>
+            <div class="customUIFLex">
+                <form class="stylingController" autocomplete="off">
+                    <h1 class="title">Get your custom ChatBot UI</h1>
+                    <table>
+                        <tbody>
+                            <tr id="accentController">
+                                <td class="property">
+                                    <label for="accentColorInput">Accent Color</label>
+                                </td>
+                                <td class="value">
+                                    <div style="padding: 0 10px">
+                                        #<input type="text" id="accentColorInput" maxlength="6" placeholder="1A73E8">
+                                        <div class="previewColor"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr id="backgroundController">
+                                <td class="property">
+                                    <label for="backgroundColorInput">Background Color</label>
+                                </td>
+                                <td class="value">
+                                    <div style="padding: 0 10px">
+                                        #<input type="text" id="backgroundColorInput" maxlength="6" placeholder="333333">
+                                        <div class="previewColor"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr id="headingController">
+                                <td class="property">
+                                    <label for="chatHeadingInput">Chat Heading</label>
+                                </td>
+                                <td class="value">
+                                    <div>
+                                        <input type="text" id="chatHeadingInput" maxlength="24" placeholder="Any Queries? Ask Me!">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr id="defaultTextController">
+                                <td class="property">
+                                    <label for="defaultMessageInput">Chat Heading</label>
+                                </td>
+                                <td class="value">
+                                    <div>
+                                        <input type="text" id="defaultMessageInput" maxlength="24" placeholder="Hi! I am ChatBot.">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="property">
+                                    <button type="reset">Reset</button>
+                                </td>
+                                <td  class="value" style="display: flex;">
+                                    <button type="button" id="downloadSettingsTrigger">Download Your Settings</button>
+                                    <a id="downloadSettingsAnchor" style="display: none;">Download Your Settings</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <div class="instructions">
+                    <h3>Note :</h3>
+                    <p>In case of custom ChatBot UI</p>
+                    <ul>
+                        <li>Download and implement the original project first</li>
+                        <li>Download your settings ( <i>i.e. customUI.json</i> )</li>
+                        <li>Place <i>customUI.json</i> file in a <b>Misc</b> folder in your project directory</li>
+                    </ul>                 
+                </div>
+            </div>            
+        </div>
+        <div class="heroLinks">
+            <h4>Follow on GitHub</h4>
+            <a class="github-button" href="https://github.com/HarshvardhanThosar" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" data-show-count="true" aria-label="Follow @HarshvardhanThosar on GitHub"> &nbsp; @HarshvardhanThosar </a>
+        </div>
+    </section>
+    <div class="chatBot">
+        <div class="chatBotHeading">
+            <label for="chatTextBox" id="chatOpenTrigger" class="">Any Queries? Ask Me!</label>
+        </div>
+        <hr class="">
+        <div class="chatBody">
+            <div class="chatSession">
+            </div>
+        </div>
+        <form class="chatForm" autocomplete="off">
+            <div class="typingArea">
+                <textarea name="chatInput" id="chatTextBox" class="textArea" onblur="if(!validateMessage()) this.value = 'Type here...'" onfocus="if(!validateMessage()) this.value = ''"></textarea>
+                <button type="submit" class="sendButton" id="sendButton"><img src="./Gfx/send.svg" alt="Send" srcset=""></button>
+            </div>
+            <button type="button" id="chatCloseTrigger">Close Chat!</button>
+        </form>
+    </div>
+    <!-- JavaScripts from native directory -->
+    <script src="./Js/chatBotConversation.js"></script>
+    <script src="./Js/chatBotValidate.js"></script>
+    <script src="./Js/chatBotAnimate.js"></script>
+    <!--     <script src="./Js/chatBotCustom.js"></script> -->
+    
+    <!-- JavaScripts from GitHub directory -->
+    <script src="./Js/chatBotLiveCustom.js"></script>
+    <script src="./Js/customSettingsDownload.js"></script>
+
+    <!-- JavaScripts for GitHub buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
