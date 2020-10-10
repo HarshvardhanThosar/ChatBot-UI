@@ -1,3 +1,10 @@
+<style>
+    * {
+        /* fonts */
+        text-decoration: none;
+    }
+</style>
+
 # ChatBot-UI
 
 <img src="https://github.com/HarshvardhanThosar/SourceMediaFiles/blob/master/ChatBot-UI/GfxSources/ChatBot-UI-Banner.png" style="border-radius: 10px;" alt="ChatBot UI Banner" width="100%">
