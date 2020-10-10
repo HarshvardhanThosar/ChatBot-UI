@@ -1,12 +1,12 @@
 # ChatBot-UI
 
-<img src="https://github.com/HarshvardhanThosar/SourceMediaFiles/blob/master/ChatBot-UI/GfxSources/ChatBot-UI-Banner.png" alt="ChatBot UI Banner" width="100%">
+<img src="https://github.com/HarshvardhanThosar/SourceMediaFiles/blob/master/ChatBot-UI/GfxSources/ChatBot-UI-Banner.png" style="border-radius: 10px;" alt="ChatBot UI Banner" width="100%">
 
 ###### ChatBot UI is just a basic user interface piece for chatbot. Feel free to use this code in your chatbots.
 
-[<img src="https://github.com/HarshvardhanThosar/SourceMediaFiles/blob/master/ChatBot-UI/GfxSources/livePreviewButton.png" alt="click for live preview" width="100%">](https://harshvardhanthosar.github.io/ChatBot-UI/)
+[<img src="https://github.com/HarshvardhanThosar/SourceMediaFiles/blob/master/ChatBot-UI/GfxSources/livePreviewButton.png" style="border-radius: 10px;" alt="click for live preview" width="100%">](https://harshvardhanthosar.github.io/ChatBot-UI/)
 
-<img src="https://github.com/HarshvardhanThosar/SourceMediaFiles/blob/master/ChatBot-UI/GfxSources/ChatBot-UI.gif" alt="ChatBot UI Working" width="100%">
+<img src="https://github.com/HarshvardhanThosar/SourceMediaFiles/blob/master/ChatBot-UI/GfxSources/ChatBot-UI.gif" style="border-radius: 10px;" alt="ChatBot UI Working" width="100%">
 
 ___
 
