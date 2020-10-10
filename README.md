@@ -1,13 +1,5 @@
 # ChatBot-UI
 
-<style>
-    body {
-        text-decoration: none;
-        color: white;
-        background: black;
-    }
-</style>
-
 <img src="https://github.com/HarshvardhanThosar/SourceMediaFiles/blob/master/ChatBot-UI/GfxSources/ChatBot-UI-Banner.png" style="border-radius: 10px;" alt="ChatBot UI Banner" width="100%">
 
 ###### ChatBot UI is just a basic user interface piece for chatbot. Feel free to use this code in your chatbots.
